@@ -1,0 +1,9 @@
+{
+  "format": "9:16",
+  "images": ["slide-1.jpg", "slide-2.jpg", "slide-3.jpg"],
+  "captions": ["Pantai pagi", "Jalan-jalan sore", "Sunset terbaik"],
+  "secondsPerImage": 2.5,
+  "music": "",
+  "backgroundColor": "#000000",
+  "textColor": "#ffffff"
+}

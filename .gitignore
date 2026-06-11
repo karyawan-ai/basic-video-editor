@@ -1,0 +1,8 @@
+node_modules
+out
+.remotion
+*.log
+.DS_Store
+# Aset & video mentah user (jangan masuk repo). Hapus baris ini kalau mau commit aset.
+public/*
+!public/.gitkeep

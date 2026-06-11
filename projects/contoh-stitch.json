@@ -1,0 +1,32 @@
+{
+  "format": "9:16",
+  "clips": [
+    {
+      "src": "klip-1.mp4",
+      "trimStart": 0,
+      "trimEnd": 5,
+      "overlays": [
+        { "text": "Bagian 1", "startSec": 0, "endSec": 2, "position": "top", "fontSize": 56, "color": "#ffffff" }
+      ]
+    },
+    {
+      "src": "klip-2.mp4",
+      "trimStart": 3,
+      "trimEnd": 9,
+      "overlays": [
+        { "text": "Bagian 2", "startSec": 0, "endSec": 2, "position": "top", "fontSize": 56, "color": "#ffffff" }
+      ]
+    },
+    {
+      "src": "klip-3.mp4",
+      "trimStart": 0,
+      "trimEnd": 4,
+      "overlays": []
+    }
+  ],
+  "transition": "fade",
+  "transitionSeconds": 0.5,
+  "keepClipAudio": true,
+  "music": "",
+  "musicVolume": 0.4
+}

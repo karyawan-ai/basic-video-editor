@@ -18,6 +18,7 @@ adalah [Remotion](https://www.remotion.dev) (video = React + props).
 - `PromoProduct` — promo jualan (gambar, harga, badge, CTA)
 - `Slideshow` — foto bergantian + caption + musik
 - `VideoEdit` — **edit video milikmu**: potong, overlay teks, musik latar
+- `StitchVideos` — **sambung beberapa video** jadi satu: tiap klip dipotong + overlay, transisi cut/fade, musik latar
 
 Rasio bisa `9:16`, `16:9`, atau `1:1` per project (field `format`).
 

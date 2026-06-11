@@ -1,0 +1,26 @@
+{
+  "format": "9:16",
+  "src": "input.mp4",
+  "trimStart": 2,
+  "trimEnd": 12,
+  "overlays": [
+    {
+      "text": "Tonton sampai habis!",
+      "startSec": 0,
+      "endSec": 3,
+      "position": "top",
+      "fontSize": 56,
+      "color": "#ffffff"
+    },
+    {
+      "text": "Follow untuk part 2",
+      "startSec": 7,
+      "endSec": 10,
+      "position": "bottom",
+      "fontSize": 52,
+      "color": "#fde047"
+    }
+  ],
+  "music": "",
+  "musicVolume": 0.4
+}
