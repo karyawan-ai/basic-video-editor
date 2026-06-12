@@ -105,7 +105,9 @@ def main() -> int:
     print(f"\n✓ {len(segments)} segmen ({info.language}, {info.duration:.1f}s) -> {out_json}", file=sys.stderr)
 
     if not args.no_srt:
-        out_srt = out_json.with_suffix(".srt")
+        base = out_json.name
+        base = base[: -len(".captions.json")] if base.endswith(".captions.json") else out_json.stem
+        out_srt = out_json.parent / f"{base}.srt"
         write_srt(segments, out_srt)
         print(f"✓ subtitle -> {out_srt}", file=sys.stderr)
 
