@@ -8,6 +8,7 @@ import { PromoProduct, promoProductSchema } from "./templates/PromoProduct";
 import { Slideshow, slideshowSchema, slideshowMetadata } from "./templates/Slideshow";
 import { VideoEdit, videoEditSchema, videoEditMetadata } from "./templates/VideoEdit";
 import { StitchVideos, stitchVideosSchema, stitchVideosMetadata } from "./templates/StitchVideos";
+import { Ecourse, ecourseSchema, ecourseMetadata } from "./templates/Ecourse";
 
 // Setiap <Composition> = satu template.
 // Ukuran & durasi dihitung dinamis lewat calculateMetadata berdasarkan props,
@@ -142,6 +143,59 @@ export const RemotionRoot: React.FC = () => {
         fps={30}
         width={1080}
         height={1920}
+      />
+
+      <Composition
+        id="Ecourse"
+        component={Ecourse}
+        schema={ecourseSchema}
+        defaultProps={{
+          format: "16:9" as const,
+          courseTitle: "Belajar Dasar Fotografi",
+          subtitle: "Modul 1 — Komposisi & Cahaya",
+          introSeconds: 3,
+          lessons: [
+            {
+              avatar: "avatar.mp4",
+              trimStart: 0,
+              trimEnd: 30,
+              title: "Aturan Sepertiga",
+              bullets: [
+                "Bagi frame jadi 3x3 garis bantu",
+                "Taruh subjek di titik perpotongan",
+                "Hindari subjek tepat di tengah",
+              ],
+              image: "",
+            },
+            {
+              avatar: "avatar.mp4",
+              trimStart: 30,
+              trimEnd: 70,
+              title: "Cahaya Golden Hour",
+              bullets: [
+                "Sejam setelah matahari terbit / sebelum tenggelam",
+                "Cahaya hangat & lembut",
+                "Bayangan panjang menambah dimensi",
+              ],
+              image: "",
+            },
+          ],
+          avatarPosition: "bottom-right" as const,
+          avatarShape: "portrait" as const,
+          avatarSize: 0.26,
+          transition: "fade" as const,
+          transitionSeconds: 0.4,
+          music: "",
+          musicVolume: 0.12,
+          backgroundColor: "#0f172a",
+          accentColor: "#38bdf8",
+          textColor: "#f8fafc",
+        }}
+        calculateMetadata={ecourseMetadata}
+        durationInFrames={2190}
+        fps={30}
+        width={1920}
+        height={1080}
       />
     </>
   );

@@ -1,0 +1,5 @@
+# Transcribe suara narasi -> caption/subtitle (dipakai oleh scripts/transcribe.py).
+# faster-whisper: implementasi Whisper berbasis CTranslate2, ringan & cepat,
+# tidak butuh PyTorch. Model di-download otomatis saat pertama dipakai.
+faster-whisper==1.0.3
+requests

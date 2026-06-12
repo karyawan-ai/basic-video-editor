@@ -43,6 +43,7 @@ baru yang memang belum ada.
 | `Slideshow`    | Beberapa foto bergantian + caption + musik | gambar + musik    |
 | `VideoEdit`    | **Edit video milik user**: potong + overlay teks + musik | video user (wajib) |
 | `StitchVideos` | **Sambung beberapa video** jadi satu: tiap klip dipotong + overlay, transisi cut/fade, musik latar | beberapa video user (wajib) |
+| `Ecourse`      | **Video kursus 3–10 menit**: kartu intro + beberapa bagian (judul + poin + gambar) dengan **avatar talking-head (PIP)** yang menjelaskan; narasi ikut dari audio video avatar | video avatar (wajib), gambar (opsional), musik (opsional) |
 
 Schema/field tiap template ada di `src/templates/<Nama>.tsx` (lihat objek
 `...Schema`). Itu sumber kebenaran untuk field yang boleh diisi — baca dari sana,
@@ -59,8 +60,13 @@ Semua aset diletakkan user di folder `public/`. Di JSON cukup tulis **nama file*
 - `StitchVideos.clips[].src`: tiap klip WAJIB ada filenya di `public/`. Klip disambung
   sesuai urutan di array. `transition: "fade"` bikin durasi total berkurang
   `transitionSeconds` per sambungan (silang); `"cut"` = potong tegas tanpa pengurangan.
-- Sebelum render VideoEdit/StitchVideos, pastikan tiap `trimEnd` tidak melebihi durasi
-  video aslinya.
+- `Ecourse.lessons[].avatar`: tiap bagian WAJIB merujuk file video avatar di `public/`.
+  Boleh satu file panjang yang dipotong beda-beda per bagian (atur `trimStart`/`trimEnd`),
+  atau file terpisah tiap bagian. Suara narasi diambil dari audio video avatar ini, jadi
+  pastikan videonya sudah ada suaranya. `image` per bagian opsional (kosongkan `""`).
+  Durasi total = `introSeconds` + jumlah durasi tiap bagian (− overlap kalau `transition: "fade"`).
+- Sebelum render VideoEdit/StitchVideos/Ecourse, pastikan tiap `trimEnd` tidak melebihi
+  durasi video aslinya.
 
 ## Perintah
 
@@ -78,6 +84,7 @@ npx remotion render PromoProduct out/promo.mp4     --props=projects/contoh-promo
 npx remotion render Slideshow    out/slideshow.mp4 --props=projects/contoh-slideshow.json
 npx remotion render VideoEdit    out/edit.mp4      --props=projects/contoh-videoedit.json
 npx remotion render StitchVideos out/gabungan.mp4  --props=projects/contoh-stitch.json
+npx remotion render Ecourse      out/ecourse.mp4    --props=projects/contoh-ecourse.json
 ```
 
 Hasil render ada di folder `out/`. Ukuran & durasi video otomatis dihitung dari

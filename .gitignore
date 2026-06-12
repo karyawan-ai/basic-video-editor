@@ -3,6 +3,10 @@ out
 .remotion
 *.log
 .DS_Store
+# Python (Whisper transcribe)
+.venv
+__pycache__
+*.pyc
 # Aset & video mentah user (jangan masuk repo). Hapus baris ini kalau mau commit aset.
 public/*
 !public/.gitkeep
