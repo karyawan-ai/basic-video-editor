@@ -47,4 +47,3 @@ Buka folder ini di Claude Code, lalu ngobrol biasa. Contoh:
 > 'resep rahasia' di tengah dari detik 1–4."
 
 Claude tahu workflow-nya dari [`CLAUDE.md`](CLAUDE.md).
-# basic-video-editor
