@@ -10,3 +10,6 @@ __pycache__
 # Aset & video mentah user (jangan masuk repo). Hapus baris ini kalau mau commit aset.
 public/*
 !public/.gitkeep
+
+# Claude Code local settings (permission approvals per-mesin, jangan di-share)
+.claude/settings.local.json
