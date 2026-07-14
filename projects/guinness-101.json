@@ -1,0 +1,70 @@
+{
+  "format": "16:9",
+  "courseTitle": "Guinness 101",
+  "subtitle": "Beer Basics — Everything About the World's Favorite Stout",
+  "introSeconds": 3,
+  "lessons": [
+    {
+      "avatar": "",
+      "durationSeconds": 10,
+      "title": "The Story of Guinness",
+      "bullets": [
+        "Founded by Arthur Guinness in Dublin, 1759",
+        "He signed a legendary 9,000-year lease on St. James's Gate",
+        "Now brewed in over 49 countries worldwide"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "durationSeconds": 10,
+      "title": "What Makes It a Stout",
+      "bullets": [
+        "A dry Irish stout — roasted, not sweet",
+        "Roasted barley gives it that coffee-like bitterness",
+        "Deep ruby-black color, not truly black"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "durationSeconds": 10,
+      "title": "How It's Brewed",
+      "bullets": [
+        "Malted barley, roasted barley, hops, water, yeast",
+        "Unmalted roasted barley gives the signature flavor",
+        "Fermented, then conditioned before packaging"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "durationSeconds": 10,
+      "title": "The Nitro Pour & The Widget",
+      "bullets": [
+        "Nitrogen + CO2 blend creates the famously creamy head",
+        "The 'surge' — tiny bubbles cascading downward",
+        "The perfect pour takes 119.5 seconds, done in two parts"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "durationSeconds": 10,
+      "title": "Tasting & Serving",
+      "bullets": [
+        "Serve cold (around 6°C) in a tulip pint glass",
+        "Notes: coffee, dark chocolate, a clean bitter finish",
+        "Lower ABV (~4.2%) than most people expect"
+      ],
+      "image": ""
+    }
+  ],
+  "transition": "fade",
+  "transitionSeconds": 0.5,
+  "music": "",
+  "musicVolume": 0.4,
+  "backgroundColor": "#120d08",
+  "accentColor": "#c9a227",
+  "textColor": "#f5efe0"
+}

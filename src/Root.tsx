@@ -159,6 +159,7 @@ export const RemotionRoot: React.FC = () => {
               avatar: "avatar.mp4",
               trimStart: 0,
               trimEnd: 30,
+              durationSeconds: 8,
               title: "Aturan Sepertiga",
               bullets: [
                 "Bagi frame jadi 3x3 garis bantu",
@@ -171,6 +172,7 @@ export const RemotionRoot: React.FC = () => {
               avatar: "avatar.mp4",
               trimStart: 30,
               trimEnd: 70,
+              durationSeconds: 8,
               title: "Cahaya Golden Hour",
               bullets: [
                 "Sejam setelah matahari terbit / sebelum tenggelam",

@@ -43,7 +43,7 @@ baru yang memang belum ada.
 | `Slideshow`    | Beberapa foto bergantian + caption + musik | gambar + musik    |
 | `VideoEdit`    | **Edit video milik user**: potong + overlay teks + musik | video user (wajib) |
 | `StitchVideos` | **Sambung beberapa video** jadi satu: tiap klip dipotong + overlay, transisi cut/fade, musik latar | beberapa video user (wajib) |
-| `Ecourse`      | **Video kursus 3–10 menit**: kartu intro + beberapa bagian (judul + poin + gambar) dengan **avatar talking-head (PIP)** yang menjelaskan; narasi ikut dari audio video avatar | video avatar (wajib), gambar (opsional), musik (opsional) |
+| `Ecourse`      | **Video kursus 3–10 menit**: kartu intro + beberapa bagian (judul + poin + gambar); tiap bagian boleh punya **avatar talking-head (PIP)** opsional yang menjelaskan (narasi ikut dari audionya), atau jadi slide murni tanpa avatar (durasi diatur manual) | video avatar (opsional per bagian), gambar (opsional), musik (opsional) |
 
 Schema/field tiap template ada di `src/templates/<Nama>.tsx` (lihat objek
 `...Schema`). Itu sumber kebenaran untuk field yang boleh diisi — baca dari sana,
@@ -60,10 +60,11 @@ Semua aset diletakkan user di folder `public/`. Di JSON cukup tulis **nama file*
 - `StitchVideos.clips[].src`: tiap klip WAJIB ada filenya di `public/`. Klip disambung
   sesuai urutan di array. `transition: "fade"` bikin durasi total berkurang
   `transitionSeconds` per sambungan (silang); `"cut"` = potong tegas tanpa pengurangan.
-- `Ecourse.lessons[].avatar`: tiap bagian WAJIB merujuk file video avatar di `public/`.
-  Boleh satu file panjang yang dipotong beda-beda per bagian (atur `trimStart`/`trimEnd`),
-  atau file terpisah tiap bagian. Suara narasi diambil dari audio video avatar ini, jadi
-  pastikan videonya sudah ada suaranya. `image` per bagian opsional (kosongkan `""`).
+- `Ecourse.lessons[].avatar`: opsional per bagian. Kalau diisi, WAJIB file video avatar-nya
+  ada di `public/` — boleh satu file panjang yang dipotong beda-beda per bagian (atur
+  `trimStart`/`trimEnd`), atau file terpisah tiap bagian; suara narasi diambil dari audio
+  video avatar ini. Kalau dikosongkan (`""`), bagian jadi slide murni (tanpa PIP/audio) dan
+  durasinya dari `durationSeconds` (detik). `image` per bagian opsional (kosongkan `""`).
   Durasi total = `introSeconds` + jumlah durasi tiap bagian (− overlap kalau `transition: "fade"`).
 - Sebelum render VideoEdit/StitchVideos/Ecourse, pastikan tiap `trimEnd` tidak melebihi
   durasi video aslinya.

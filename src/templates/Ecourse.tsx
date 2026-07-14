@@ -16,15 +16,19 @@ import { DEFAULT_FPS, dimensions, formatSchema } from "../lib/format";
 import { FadeUp } from "../components/animations";
 
 // Satu bagian/pelajaran e-course:
-// - video avatar (talking-head) yang menjelaskan, dipotong sesuai narasi
+// - video avatar (talking-head) opsional yang menjelaskan, dipotong sesuai narasi
 // - slide: judul + poin-poin + gambar opsional
-// Suara narasi ikut dari audio video avatar (tidak dibisukan).
+// Kalau avatar diisi, suara narasi ikut dari audio video avatar (tidak dibisukan)
+// dan durasi bagian = trimEnd - trimStart. Kalau avatar dikosongkan (""), bagian
+// jadi slide murni (tanpa PIP/audio) dan durasinya dari `durationSeconds`.
 const lessonSchema = z.object({
-  // Nama file video avatar di public/ (mis. "narasi-bab1.mp4").
-  // Boleh satu file yang sama dipotong beda-beda untuk tiap bagian.
-  avatar: z.string().default("avatar.mp4"),
+  // Nama file video avatar di public/ (mis. "narasi-bab1.mp4"). Kosongkan ("")
+  // untuk bagian tanpa avatar/talking-head.
+  avatar: z.string().default(""),
   trimStart: z.number().min(0).default(0),
   trimEnd: z.number().min(0).default(30),
+  // Durasi bagian (detik) dipakai HANYA kalau avatar dikosongkan.
+  durationSeconds: z.number().min(1).default(8),
   title: z.string().default("Judul Bagian"),
   // Poin-poin yang muncul di slide (bullet), tampil bertahap.
   bullets: z.array(z.string()).default([]),
@@ -44,7 +48,15 @@ export const ecourseSchema = z.object({
     .array(lessonSchema)
     .min(1)
     .default([
-      { avatar: "avatar.mp4", trimStart: 0, trimEnd: 30, title: "Pengantar", bullets: [], image: "" },
+      {
+        avatar: "",
+        trimStart: 0,
+        trimEnd: 30,
+        durationSeconds: 8,
+        title: "Pengantar",
+        bullets: [],
+        image: "",
+      },
     ]),
   // Tata letak avatar PIP.
   avatarPosition: z
@@ -68,7 +80,9 @@ type Props = z.infer<typeof ecourseSchema>;
 type Lesson = z.infer<typeof lessonSchema>;
 
 const lessonFrames = (l: Lesson, fps: number) =>
-  Math.max(1, Math.round((l.trimEnd - l.trimStart) * fps));
+  l.avatar
+    ? Math.max(1, Math.round((l.trimEnd - l.trimStart) * fps))
+    : Math.max(1, Math.round(l.durationSeconds * fps));
 
 // Durasi total = intro + jumlah durasi tiap bagian, dikurangi overlap transisi fade.
 export const ecourseMetadata: CalculateMetadataFunction<Props> = ({ props }) => {
@@ -197,8 +211,9 @@ const Slide: React.FC<{
   accentColor: string;
   textColor: string;
 }> = ({ lesson, avatarPosition, backgroundColor, accentColor, textColor }) => {
-  // Beri ruang kosong di sisi tempat avatar menempel agar tidak menutupi konten.
-  const avatarBottom = avatarPosition.startsWith("bottom");
+  // Beri ruang kosong di sisi tempat avatar menempel agar tidak menutupi konten
+  // (hanya kalau bagian ini memang punya avatar).
+  const avatarBottom = Boolean(lesson.avatar) && avatarPosition.startsWith("bottom");
   return (
     <AbsoluteFill
       style={{
@@ -339,14 +354,16 @@ export const Ecourse: React.FC<Props> = ({
                     accentColor={accentColor}
                     textColor={textColor}
                   />
-                  <AvatarPip
-                    lesson={it.lesson}
-                    position={avatarPosition}
-                    shape={avatarShape}
-                    size={avatarSize}
-                    accentColor={accentColor}
-                    fps={fps}
-                  />
+                  {it.lesson.avatar ? (
+                    <AvatarPip
+                      lesson={it.lesson}
+                      position={avatarPosition}
+                      shape={avatarShape}
+                      size={avatarSize}
+                      accentColor={accentColor}
+                      fps={fps}
+                    />
+                  ) : null}
                 </AbsoluteFill>
               )}
             </TransitionSeries.Sequence>,
