@@ -1,0 +1,120 @@
+{
+  "format": "16:9",
+  "courseTitle": "Kerja Part Time di Australia",
+  "subtitle": "Panduan Lengkap untuk Pelajar Internasional",
+  "introSeconds": 6,
+  "lessons": [
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 24,
+      "title": "1. Cek Ketentuan Visa Pelajarmu",
+      "bullets": [
+        "Pastikan visa (umumnya subclass 500) memang mengizinkan kerja part time",
+        "Ada batas jam kerja per dua minggu selama masa kuliah berjalan",
+        "Selalu cek aturan terbaru di situs Home Affairs sebelum mulai kerja"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 22,
+      "title": "2. Urus Tax File Number (TFN)",
+      "bullets": [
+        "Daftar TFN gratis secara online lewat situs ATO",
+        "TFN wajib dimiliki sebelum mulai bekerja",
+        "Tanpa TFN, gajimu bisa dipotong pajak dengan tarif maksimal"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 20,
+      "title": "3. Buka Rekening Bank Australia",
+      "bullets": [
+        "Dibutuhkan supaya gaji bisa ditransfer langsung",
+        "Banyak bank punya rekening pelajar tanpa biaya bulanan"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 22,
+      "title": "4. Siapkan CV Gaya Australia",
+      "bullets": [
+        "Buat resume singkat, idealnya 1-2 halaman",
+        "Sertakan pengalaman kerja/organisasi & referensi bila ada",
+        "Sesuaikan format dengan standar lokal Australia"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 24,
+      "title": "5. Cari Lowongan yang Ramah Pelajar",
+      "bullets": [
+        "Cek job board kampus & career centre universitas",
+        "Coba sektor retail, hospitality, cafe, dan warehouse",
+        "Gunakan Seek, Indeed, dan grup komunitas pelajar"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 24,
+      "title": "6. Kenali Hak & Upah Minimum",
+      "bullets": [
+        "Cek Fair Work Ombudsman untuk standar upah minimum terbaru",
+        "Pastikan slip gaji & jam kerja tercatat dengan benar",
+        "Laporkan ke Fair Work bila ada indikasi eksploitasi"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 22,
+      "title": "7. Kelola Waktu Kuliah & Kerja",
+      "bullets": [
+        "Utamakan studi, atur shift agar tidak bentrok kelas/ujian",
+        "Komunikasikan jadwal ujian ke atasan lebih awal",
+        "Jaga keseimbangan supaya nilai akademik tetap aman"
+      ],
+      "image": ""
+    },
+    {
+      "avatar": "",
+      "trimStart": 0,
+      "trimEnd": 30,
+      "durationSeconds": 22,
+      "title": "8. Lapor Pajak Tahunan",
+      "bullets": [
+        "Submit tax return tiap tahun lewat myGov/ATO",
+        "Wajib lapor meski penghasilan kecil"
+      ],
+      "image": ""
+    }
+  ],
+  "avatarPosition": "bottom-right",
+  "avatarShape": "portrait",
+  "avatarSize": 0.26,
+  "transition": "fade",
+  "transitionSeconds": 0.4,
+  "music": "",
+  "musicVolume": 0.12,
+  "backgroundColor": "#0f172a",
+  "accentColor": "#38bdf8",
+  "textColor": "#f8fafc"
+}
