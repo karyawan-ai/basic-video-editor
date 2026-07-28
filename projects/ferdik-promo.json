@@ -1,0 +1,437 @@
+{
+  "format": "9:16",
+  "clips": [
+    {
+      "src": "Ferdik/1. Ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "Ferdik udah impor lebih dari 14 miliar rupiah dan produknya",
+          "startSec": 0.031,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/2. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "Ferdik udah impor lebih dari 14 miliar rupiah dan produknya",
+          "startSec": 0,
+          "endSec": 0.371,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "cuma makanan kucing. Ini gila sih. Bayangin temen-temen, produk yang tiap",
+          "startSec": 0.871,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/3. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "cuma makanan kucing. Ini gila sih. Bayangin temen-temen, produk yang tiap",
+          "startSec": 0,
+          "endSec": 1.531,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "bulan dibeli ulang, tiap hari dicari orang, tapi Ferdik nggak cuma jadi reseller yang",
+          "startSec": 2.031,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/4. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "bulan dibeli ulang, tiap hari dicari orang, tapi Ferdik nggak cuma jadi reseller yang",
+          "startSec": 0,
+          "endSec": 2.371,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "marginnya tipis. Dia impor langsung. Jujur aja. Banyak orang",
+          "startSec": 2.871,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/5. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "marginnya tipis. Dia impor langsung. Jujur aja. Banyak orang",
+          "startSec": 0,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/6. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "marginnya tipis. Dia impor langsung. Jujur aja. Banyak orang",
+          "startSec": 0,
+          "endSec": 0.373,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "jualan capek banget karena ambil barang dari tangan kedua, ketiga, keempat.",
+          "startSec": 0.873,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/7. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "jualan capek banget karena ambil barang dari tangan kedua, ketiga, keempat.",
+          "startSec": 0,
+          "endSec": 0.933,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "Harga beli udah tinggi, pas dijual harus perang harga, akhirnya omset",
+          "startSec": 1.213,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/8. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "Harga beli udah tinggi, pas dijual harus perang harga, akhirnya omset",
+          "startSec": 0,
+          "endSec": 1.593,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "ada. Tapi untungnya kecil. Nah, Ferdik beda. Dengan impor sendiri,",
+          "startSec": 2.093,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/9. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "ada. Tapi untungnya kecil. Nah, Ferdik beda. Dengan impor sendiri,",
+          "startSec": 0,
+          "endSec": 2.633,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "dia bisa dapetin harga jauh lebih murah. Selisih harga itu yang bikin margin bisnisnya",
+          "startSec": 2.853,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/10. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "dia bisa dapetin harga jauh lebih murah. Selisih harga itu yang bikin margin bisnisnya",
+          "startSec": 0,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/11. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "dia bisa dapetin harga jauh lebih murah. Selisih harga itu yang bikin margin bisnisnya",
+          "startSec": 0,
+          "endSec": 0.653,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "jadi lebih tebal. Dari makanan kucing, dia bisa bangun bisnis sampai omset miliaran.",
+          "startSec": 1.153,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/12. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "jadi lebih tebal. Dari makanan kucing, dia bisa bangun bisnis sampai omset miliaran.",
+          "startSec": 0,
+          "endSec": 1.713,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "Tapi yang paling penting, dia nggak jalan sendirian. Di komunitas importir.org.",
+          "startSec": 2.173,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/13. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "Tapi yang paling penting, dia nggak jalan sendirian. Di komunitas importir.org.",
+          "startSec": 0,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/14. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "Tapi yang paling penting, dia nggak jalan sendirian. Di komunitas importir.org.",
+          "startSec": 0,
+          "endSec": 0.533,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "Ferdik belajar cara cari supplier, cara hitung margin, cara masukin barang,",
+          "startSec": 1.197,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/15. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "Ferdik belajar cara cari supplier, cara hitung margin, cara masukin barang,",
+          "startSec": 0,
+          "endSec": 2.297,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "sampai cara ngurangin risiko salah impor. Jadi bukan nebak-nebak,",
+          "startSec": 2.377,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/16. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "sampai cara ngurangin risiko salah impor. Jadi bukan nebak-nebak,",
+          "startSec": 0,
+          "endSec": 2.737,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "bukan gambling, tapi ada arahan dan komunitas yang bantu. Kalau kamu pengen",
+          "startSec": 2.877,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/17. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "bukan gambling, tapi ada arahan dan komunitas yang bantu. Kalau kamu pengen",
+          "startSec": 0,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/18. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "bukan gambling, tapi ada arahan dan komunitas yang bantu. Kalau kamu pengen",
+          "startSec": 0,
+          "endSec": 0.777,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "punya bisnis impor yang marginnya lebih enak, jangan mulai sendirian. Klik link",
+          "startSec": 1.277,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/19. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "punya bisnis impor yang marginnya lebih enak, jangan mulai sendirian. Klik link",
+          "startSec": 0,
+          "endSec": 1.837,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        },
+        {
+          "text": "di bawah, ikut webinar importir.org, dan pelajarin",
+          "startSec": 2.337,
+          "endSec": 3.04,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/20. ferdik.mp4",
+      "trimStart": 0,
+      "trimEnd": 3.04,
+      "overlays": [
+        {
+          "text": "di bawah, ikut webinar importir.org, dan pelajarin",
+          "startSec": 0,
+          "endSec": 2.737,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    },
+    {
+      "src": "Ferdik/5. ferdik 2.mp4",
+      "trimStart": 0,
+      "trimEnd": 1.4,
+      "overlays": [
+        {
+          "text": "cara mulai impor dari nol.",
+          "startSec": 0.197,
+          "endSec": 1.017,
+          "position": "bottom",
+          "fontSize": 44,
+          "color": "#ffffff"
+        }
+      ]
+    }
+  ],
+  "transition": "cut",
+  "transitionSeconds": 0.3,
+  "keepClipAudio": false,
+  "music": "Ferdik/Importir - Ferdik.MP3",
+  "musicVolume": 1
+}
